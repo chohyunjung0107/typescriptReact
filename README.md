@@ -27,7 +27,7 @@ npx create-react-app 이름 --template typescript
 
 ```
 
-##App.tsx
+## App.tsx
 ```
 import React from 'react';
 
@@ -43,7 +43,7 @@ export default App;
 
 ```
 
-##index.tsx
+## index.tsx
 ```
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -56,7 +56,8 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
-##tsconfig.json
+## tsconfig.json
+<a href="https://www.typescriptlang.org/docs/handbook/tsconfig-json.html">타입스크립트 tsconfig 핸드북</a>
 ```
 {
   "compilerOptions": {
