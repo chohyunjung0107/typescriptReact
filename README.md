@@ -27,6 +27,13 @@ npx create-react-app 이름 --template typescript
 
 ```
 
+## 기본 모듈
+```
+npm i --save-dev @types/react-router-dom
+npm i --save-dev @types/styled-components
+```
+
+
 ## App.tsx
 ```
 import React from 'react';
