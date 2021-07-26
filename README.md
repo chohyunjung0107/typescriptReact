@@ -94,3 +94,6 @@ ReactDOM.render(
 
 ```
 
+##### redux-toolkit 적용해보기
+<a href="https://kyounghwan01.github.io/blog/React/redux/redux-toolkit/#reselect">예제 참고</a>
+
