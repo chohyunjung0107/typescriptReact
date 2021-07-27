@@ -96,4 +96,14 @@ ReactDOM.render(
 
 ##### redux-toolkit 적용해보기
 <a href="https://kyounghwan01.github.io/blog/React/redux/redux-toolkit/#reselect">예제 참고</a>
+```
+//첫 셋팅 시: 리액트 + 타입스크립트 + 리덕스 설치 
+npx create-react-app my-app --template redux-typescript
+
+//리덕스 타입스크립트 설치 
+npm install @types/react-redux
+
+// 리덕스 툴킷 설치 
+npm install @reduxjs/toolkit react-redux
+```
 
