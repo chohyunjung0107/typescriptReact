@@ -3,10 +3,20 @@
 npx create-react-app 이름 --template typescript 
 ```
 
+## react에서 타입오류 계속 뜰때 
+```
+npm install --save @types/react @types/react-dom
+```
+
 ## 기본 모듈
 ```
 npm i --save-dev @types/react-router-dom
 npm i --save-dev @types/styled-components
+npm install axios
+npm install node-sass
+//버전 6이 맞지 않아 5로 낮춰 install
+npm uninstall node-sass 
+npm install node-sass@5.0.0
 ```
 
 ## index.html
@@ -93,8 +103,32 @@ ReactDOM.render(
 }
 
 ```
+## 상대 경로 축약 사용 
+```
+[jsconfig.json]
 
-##### redux-toolkit 적용해보기
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": [
+    "src"
+  ]
+}
+```
+
+## git에 공유 안하는 파일 
+```
+[.gitignore]
+
+# lock
+package-lock.json
+yarn.lock
+
+```
+
+
+## redux-toolkit 적용해보기
 <a href="https://kyounghwan01.github.io/blog/React/redux/redux-toolkit/#reselect">예제 참고</a>
 ```
 //첫 셋팅 시: 리액트 + 타입스크립트 + 리덕스 설치 
